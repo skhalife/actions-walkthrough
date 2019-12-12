@@ -1,3 +1,37 @@
+## Documentation
+1. [Core concepts for GitHub Actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/core-concepts-for-github-actions)
+2. [Automating your workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions)
+3. [Events that trigger workflows](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows)
+
+## Self-paced Learning
+* [Hello, GitHub Actions!](https://lab.github.com/github/hello-github-actions!)
+* [GitHub Actions: Continues Integration](https://lab.github.com/githubtraining/github-actions:-continuous-integration)
+* [GitHub Actions:Publish to GitHub Packages](https://lab.github.com/githubtraining/github-actions:-publish-to-github-packages)
+* [GitHub Actions: Continuous Delivery](https://lab.github.com/githubtraining/github-actions:-continuous-delivery)
+
+## Existing Actions Resource
+- [GitHub provided actions](https://github.com/actions)
+- [Starter workflow examples](https://github.com/actions/starter-workflows)
+- [Actions in the GitHub Marketplace](https://github.com/marketplace?type=actions)
+
+### Cloud providers
+
+- [AWS](https://github.com/aws-actions/)
+- [Google Cloud](https://github.com/googlecloudplatform/github-actions/)
+- [Azure](https://github.com/Azure/actions/)
+
+### Other popular tools
+
+- [Atlassian JIRA](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=jira)
+- [SonarCloud](https://github.com/marketplace/actions/sonarcloud-scan)
+- [JFrog CLI](https://github.com/marketplace/actions/setup-jfrog-cli)
+- [Vault Secrets](https://github.com/marketplace/actions/vault-secrets)
+- [Run mabl tests](https://github.com/marketplace/actions/run-mabl-tests)
+- [Close Stale Issues](https://github.com/marketplace/actions/close-stale-issues)
+- [GitHub Actions](https://github.com/actions)
+
+
+
 # fib-tools
 
 ![](https://github.com/bbq-beets/fib-tools/workflows/CI/badge.svg)
