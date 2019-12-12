@@ -1,3 +1,7 @@
+# GitHub Actions
+
+Here is the items quick overview of resources available for Actions.
+
 ## Documentation
 1. [Core concepts for GitHub Actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/core-concepts-for-github-actions)
 2. [Automating your workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions)
@@ -28,15 +32,12 @@
 - [Vault Secrets](https://github.com/marketplace/actions/vault-secrets)
 - [Run mabl tests](https://github.com/marketplace/actions/run-mabl-tests)
 - [Close Stale Issues](https://github.com/marketplace/actions/close-stale-issues)
-- [GitHub Actions](https://github.com/actions)
+- [GitHub Actions](https://github.com/actions)    
+
+Feel free to comment or edit this readme with more informations.  
 
 
-
-# fib-tools
-
-![](https://github.com/bbq-beets/fib-tools/workflows/CI/badge.svg)
-
-
+# fib-tools  
 
 ## Get the nth Number
 
