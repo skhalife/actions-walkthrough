@@ -29,3 +29,15 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        
+  publish-docker:
+    needs: [build]
+    runs-on: [ubuntu-latest]
+    steps:
+    - uses: actions/checkout@master
+    - run: |
+        docker build -t docker.pkg.github.com/skhalife/actions-walkthrough/actions-walkthrough:${{ github.sha }} .
+        docker login docker.pkg.github.com -u skhalife -p $GITHUB_TOKEN
+        docker push docker.pkg.github.com/skhalife/actions-walkthrough/actions-walkthrough:${{ github.sha }}
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
